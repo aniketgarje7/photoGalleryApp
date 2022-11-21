@@ -1,7 +1,11 @@
+import { Container ,Row,Col} from "react-bootstrap";
+import './index.css'
+import logo from "../../assets/brand-logo.png"
+
 const Contact = ()=>{
-    return <>
-    <h1 style={{textAlign:'center'}}>Contact Us</h1>
-    <p>
+    return <div className="page">
+    <h1 id="h1">Contact Us</h1>
+    <p className="para">
     Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa optio
      magnam pariatur ducimus, reiciendis id, unde repellendus ea debitis,
      minus sed. Autem, repudiandae. Aliquam aperiam ipsum cumque iste.
@@ -23,7 +27,38 @@ const Contact = ()=>{
      ab quidem deleniti quam odio dolor tenetur, dignissimos ea praesentium
      consequuntur. Perferendis ducimus totam deleniti?
     </p>
-    <hr/>
-    </>
+    
+    
+    <Container>
+        <Row id="row1">
+            <Col className="col" md={4}>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa optio
+     magnam pariatur ducimus, reiciendis id, unde repellendus ea debitis,
+     minus sed. Autem, repudiandae. Aliquam aperiam ipsum cumque iste.
+     Consequuntur architecto enim accusantium, quae sed et tempora earum
+     sapiente necessitatibus nulla 
+            </Col>
+            <Col md={4}>
+             <img src={logo} alt="brand logo" className="logo"/>
+            </Col>
+            <Col className="col" md={4}>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa optio
+     magnam pariatur ducimus, reiciendis id, unde repellendus ea debitis,
+     minus sed. Autem, repudiandae. Aliquam aperiam ipsum cumque iste.
+     Consequuntur architecto enim accusantium, quae sed et tempora earum
+     sapiente necessitatibus nulla 
+            </Col>
+            
+        </Row>
+        <Row id="row2">
+            <Col id="colLast" md={{span:6,offset:3}}> Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa optio
+     magnam pariatur ducimus, reiciendis id, unde repellendus ea debitis,
+     minus sed. Autem, repudiandae. Aliquam aperiam ipsum cumque iste.
+     
+     </Col>
+        </Row>
+    </Container>
+
+    </div>
 }
 export default Contact;

@@ -24,7 +24,7 @@ function ColorSchemesExample() {
   return (
     <>
        {photos.length>0?  
-       (<Row> {photos.map((photo)=>{
+       (<Row className='row' > {photos.map((photo)=>{
         return (
          <Col md={3} key={photo.id} className="mt-2 mb-2" >
          <Card className='card' >

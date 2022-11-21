@@ -1,7 +1,10 @@
+import logo from "../../assets/brand-logo.png"
+import "./aboutUs.css";
+
 const AboutUs = () =>{
     return <>
        <h1 style={{textAlign:'center'}}>About Us</h1>
-       <p>
+       <p className="para">
        Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa optio
         magnam pariatur ducimus, reiciendis id, unde repellendus ea debitis,
         minus sed. Autem, repudiandae. Aliquam aperiam ipsum cumque iste.
@@ -24,7 +27,7 @@ const AboutUs = () =>{
         consequuntur. Perferendis ducimus totam deleniti?
        </p>
        <hr/>
-    
+         <img src={logo} className="imgabout" alt="brand logo"></img>
     </>
 }
 export default AboutUs;
