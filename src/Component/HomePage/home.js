@@ -46,7 +46,7 @@ function ColorSchemesExample() {
 
         </Card></Col>)})}
         </Row>)
-        :<><Spinner style={{marginLeft:"460px",marginTop:"180px"}} animation="border" role="status">
+        :<><Spinner style={{marginLeft:"50%",marginTop:"180px"}} animation="border" role="status">
         <span className="visually-hidden">Loading...</span>
         </Spinner></>
        }  
