@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/photoGalleryApp/static/css/main.46d4a70b.css",
-    "main.js": "/photoGalleryApp/static/js/main.6f001f2e.js",
+    "main.js": "/photoGalleryApp/static/js/main.b2ad2449.js",
     "static/media/brand-logo.png": "/photoGalleryApp/static/media/brand-logo.c66da7651568a2d13909.png",
     "index.html": "/photoGalleryApp/index.html",
     "main.46d4a70b.css.map": "/photoGalleryApp/static/css/main.46d4a70b.css.map",
-    "main.6f001f2e.js.map": "/photoGalleryApp/static/js/main.6f001f2e.js.map"
+    "main.b2ad2449.js.map": "/photoGalleryApp/static/js/main.b2ad2449.js.map"
   },
   "entrypoints": [
     "static/css/main.46d4a70b.css",
-    "static/js/main.6f001f2e.js"
+    "static/js/main.b2ad2449.js"
   ]
 }
