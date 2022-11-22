@@ -12,7 +12,7 @@ import { Link } from 'react-router-dom';
 
 
 
-function ColorSchemesExample() {
+function HomePage() {
 
    const [photos,setPhotos] = useState([]);
 
@@ -56,4 +56,4 @@ function ColorSchemesExample() {
   );
 }
 
-export default ColorSchemesExample;
+export default HomePage;
