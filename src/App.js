@@ -18,7 +18,9 @@ function App() {
   <BrowserRouter>
       <NavBar/>
       <Switch>
+       
         <Route exact path="/"><ColorSchemesExample/></Route>
+        <Route exact path="/photoGalleryApp"><ColorSchemesExample/></Route>
         <Route path="/about"> <AboutUs/> </Route>
         <Route path="/contact"><Contact/></Route>
         <Route path ="/photos/:id"><Photo/></Route>
