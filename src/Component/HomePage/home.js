@@ -7,7 +7,9 @@ import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row'
 import Spinner from 'react-bootstrap/Spinner';
 import './index.css';
-import { Button } from 'react-bootstrap';
+import { Button} from 'react-bootstrap';
+import { Link } from 'react-router-dom';
+
 
 
 function ColorSchemesExample() {
@@ -35,8 +37,11 @@ function ColorSchemesExample() {
           <Card.Title className='cardTitle'>{photo.author}</Card.Title>
 
           <Button href ={photo.url} variant="info" className='button1'>View Details</Button>{'   '}
-          <Button href ={photo.download_url} variant="info" className='button2'>Image</Button>{'   '}
-
+          <Link to={`/photos/${photo.id}`} >
+            <Button variant="info" className="button2">Image</Button>
+            </Link>
+          
+         
          </Card.Body>
 
         </Card></Col>)})}
