@@ -1,3 +1,4 @@
+Preview: https://aniketgarje7.github.io/photoGalleryApp/
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
