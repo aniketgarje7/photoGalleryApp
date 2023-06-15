@@ -38,7 +38,7 @@ const Contact = ()=>{
      Consequuntur architecto enim accusantium, quae sed et tempora earum
      sapiente necessitatibus nulla 
             </Col>
-            <Col md={4}>
+            <Col md={4} className="text-center">
              <img src={logo} alt="brand logo" className="logo"/>
             </Col>
             <Col className="col" md={4}>

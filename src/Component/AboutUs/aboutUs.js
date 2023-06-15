@@ -27,7 +27,10 @@ const AboutUs = () =>{
         consequuntur. Perferendis ducimus totam deleniti?
        </p>
        <hr/>
-         <img src={logo} className="imgabout" alt="brand logo"></img>
+       <div className="d-flex">
+       <img src={logo} className="imgabout" alt="brand logo"></img>
+       </div>
+        
     </>
 }
 export default AboutUs;

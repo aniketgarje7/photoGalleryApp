@@ -1,9 +1,7 @@
 .card{
     height: 260px;
     width: 210px;
-    margin: 15px;
-    
-    
+    margin: auto;
 }
 .cardBody{
   height: 110px ;
@@ -46,4 +44,11 @@ opacity: 0.9;
 }
 .row{
     background-color: antiquewhite;
+}
+
+.spinner{
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    
 }

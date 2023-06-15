@@ -5,10 +5,10 @@ import brandLogo from '../assets/brand-logo.png'
 import { NavLink } from 'react-router-dom';
 
 const NavBar = (props)=>{
-  return <>
-    <Navbar bg="dark" variant="dark">
-        <Container>
-        <Navbar.Brand as={NavLink} to="/">
+  return <> 
+      <Navbar bg="dark" expand="lg" variant='dark'>
+      <Container>
+      <Navbar.Brand as={NavLink} to="/">
             <img
               alt=""
               src={brandLogo}
@@ -18,8 +18,9 @@ const NavBar = (props)=>{
             />{' '}
             Photo Gallery
           </Navbar.Brand>
-          
-          <Nav className='me-auto' >
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse id="basic-navbar-nav">
+        <Nav className='me-auto' >
           <Nav.Link as={NavLink} to="/">Home</Nav.Link></Nav>
           <Nav className="justify-content-end">
            
@@ -28,10 +29,10 @@ const NavBar = (props)=>{
             <Nav.Link as={NavLink} to="/contact" md='auto'>Contact</Nav.Link>
             
           </Nav>
-          
-        </Container>
-       
-      </Navbar></>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
+      </>
 }
 
 export default NavBar;
